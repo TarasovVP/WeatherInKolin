@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WFU</string>
+    <string name="choise">Выберите ваш город</string>
+    <string name="ok">Ok</string>
+    <string name="city">Днепр</string>
+    <string name="todo">TODO</string>
+    <string name="enter_name">Введите название</string>
+    <string name="menu_item">Выбрать город</string>
+    <string name="err_repeat">Ошибка. Повторите запрос</string>
+    <string name="err_nothing_found">Ничего не найдено</string>
+</resources>

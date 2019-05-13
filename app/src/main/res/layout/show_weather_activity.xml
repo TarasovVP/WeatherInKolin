@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".ui.ShowWeatherActivity">
+
+    <LinearLayout
+            android:id="@+id/topLayoutShowWeather"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/cityShowWeather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/cityShowWeather"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/dateShowWeather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+        <TextView
+                android:id="@+id/temperatureShowWeather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/temperatureShowWeather"
+                android:textStyle="bold"/>
+
+        <ImageView
+                android:id="@+id/weatherShowWeather"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="150dp"
+                android:contentDescription="@string/todo"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/bottomLayoutShowWeather"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple"
+            tools:context="com.gmail.tarasov1998.wfu2.RecycleView">
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:clipToPadding="true"
+                android:nestedScrollingEnabled="false"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

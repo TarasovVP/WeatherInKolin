@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="1dp"
+    android:orientation="vertical"
+    tools:context=".ui.ShowWeatherActivity">
+
+
+    <TextView
+        android:id="@+id/tempShowWeather"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/weatherIconShowWeather"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:gravity="center"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/timeShowWeather"
+        android:layout_width="match_parent"
+        android:background="@color/purple"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:gravity="center" />
+
+</LinearLayout>
+
